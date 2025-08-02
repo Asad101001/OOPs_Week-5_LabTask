@@ -37,3 +37,14 @@ print ("Triangle 2 ->", triangle2.__str__ ())
 print ("Triangle 3 ->", triangle3.__str__ ())
 print ("Triangle 4 ->", triangle4.__str__ ())
 print ("Triangle 5 ->", triangle5.__str__ ())
+print ("\n")  # line break
+
+# EXAMPLE OF GETTER
+print("Displaying sideC of triangle4 using getter :",triangle4.sideC)
+print ("\n")  # line break
+
+# EXAMPLE OF SETTER
+triangle4.sideA = 88
+triangle4.sideB = 99
+triangle4.sideC = 1010
+print("Displaying all the altered sides using setters",triangle4.__str__())
